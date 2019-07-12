@@ -1,0 +1,29 @@
+# How to use the "DataMerger" app.
+
+Although this app will merge any two datasets together from an excel file, this was designed to work with a template, so the defaults are set with those in mind.
+
+## Notes:
+1. Before import make sure that the data you are importing is cleaned. You can clean data within the app but it is much easier to do within the excel file.
+  - If your platemap wasn't full did you remove unused rows on Sheet 3.
+  - Did you remove samples that need to be deleted
+2. All the files you are working with need to be in the same folder.
+3. All the data you are working with need to be on the same excel sheet (e.g. Sheet 3)
+
+## Steps:
+1. Copy cleaned data to new folder
+2. Open the app, select "Run App"data, when the window opens, select "Open in browser" located on the top of this window.
+3. Select "Choose folder" and navigate to the folder that contains all the data you want to merge. When you reach your destination folder, all the files you are going to be merging will be viewable in the "Content" window. Press "Select"
+4.  Once your data loads. Check it over to make sure everything makes sense and looks clean. Cells are editable by clicking on the cell you want edit. Rows can be deleted by right-clicking on the row number and selecting "Remove row".
+5. Once you are certain the data is correct, replace NA's with "Undet", by selecting the "Yes" radio button, by default "No" is selected. It is important that there are no blank cells in any rows after performing this step.
+6. Your data is now ready to export. If you are going to be merging this data into the master database, you need to export the csv file.
+
+
+## FAQ:
+Q: Why can't I right click to delete rows?
+A: You are not working in a web browser. See step 2. 
+
+Q: Why am I getting an error that reads "Error: Can't retrieve sheet in position X, only Y sheet(s) found.", after I select my working directory?
+A: Your dataset is on a different sheet than what you are telling the app to read. Select the correct sheet in the sidebar. 
+
+Q: Why don't my column names make sense?
+A: The likely explanation is that your dataset is on a different sheet than what you are telling the app to read. Select the correct sheet in the sidebar.
